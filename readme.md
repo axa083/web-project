@@ -1,0 +1,1 @@
+A basic website using **HTML**, **CSS**, with a focus on flex and commonly used design practices.
