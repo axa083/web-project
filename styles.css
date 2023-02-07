@@ -1,0 +1,155 @@
+/**
+* {
+    border: 5px solid purple;
+} **/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    padding: 0 260px;
+    align-items: center;
+    gap: 18px;
+}
+
+.headerlinkone {
+    flex-grow: 4;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#headerfont {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bigtext {
+    font-size: 40px;
+    margin-bottom: -10px;
+    font-weight: 900;
+}
+
+.one {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 260px;
+}
+
+#headerleft {
+    flex: 1 1 auto;
+    max-width: 350px;
+}
+
+#placeholder {
+    background: rgb(102, 99, 99);
+    align-self: center;
+    justify-self: center;
+    padding: 120px 100px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.two {
+    background: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 52px;
+    padding: 50px;
+}
+
+.info {
+    max-width: 135px;
+}
+
+.quote {
+    background: #E5E7EB;
+}
+
+.cta {
+    background: white;
+    color: white;
+}
+
+#bluebox {
+    background: #3883F6;
+    margin: 70px auto;
+    max-width: 60%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.button {
+    background-color: #3883F6;
+    border: 2px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Manrope, Verdana;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    outline: none;
+    padding: 2px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+}
+
+.footer {
+    background: #1F2937;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
+}
+
+#actual-quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    margin: auto;
+    max-width: 50%;
+    padding-top: 40px;
+}
+
+#author {
+    margin: auto;
+    max-width: 50%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.light {
+    font-weight: 200;
+}
